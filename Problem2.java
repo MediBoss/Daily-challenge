@@ -15,45 +15,65 @@ By starting with 1 and 2, the first 10 terms will be:
 
 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, ...
 
-By considering the terms in the Fibonacci sequence whose values do not exceed four million, find the sum of the even-valued terms.
+By considering the terms in the Fibonacci sequence whose values do not exceed four million, find the sum of the even-valued term
 
- * 
- *              STEPS
- *              *****
- * 
- * 
  * **/
 import java.util.*;
+import java.lang.Math;
 
 public class Problem2{
-  
-  public static void main(string[] args){
-
-        List<Integers> myList = new Arraylist<Integers>();// array to hold even numbers
+    
+    public static void main(String[] args){
+        static const int LIMIT = 4000000;
+        List<Integer>fibNumbers = fibSequence(limit);
+        List<Integer>evenFib = getEvenNumbers(fibNumbers);
+        System.out.println(getListSum(evenFib));
 
     }
-  
-  public static List<Integer> getFibNumbers(int limit){
 
-        List <Integer> fibNumbers = new ArrayList<Integer>();
-        if(limit == 0 || limit == 1){//base case
+    public static List<Integer> fibSequence(int limit){
 
-            return 1;
-        }else{
-            fibNumbers.add(getFibNumbers(limit - 1) - getFibNumbers(limit - 2));
-        };
+        List<Integer> fibValues = new ArrayList<Integer>();
 
-        return fibNumbers;
+        int a = 0;
+        int b = 1;
+        int sum = 0;
+        int count = 0;
+
+        while(count < limit){
+            
+            sum = a + b;
+            a = b;
+            b = sum ;
+
+            fibValues.add(sum);
+            count++;
+        }
+
+        return fibValues;
     }
-  
-   public static List<Integer> getEvenNumbers(List<Integer> list, int limit){
+ 
+    public static List<Integer> getEvenNumbers(List<Integer> list){
 
         List<Integer> evenFib = new ArrayList<Integer>();
-        for(int i = 0; i < limit; i++){
+        for(int i = 0; i < list.size(); i++){
 
             if(list.get(i) % 2 == 0){
                 evenFib.add(list.get(i));
             }
         }
+
+        return evenFib;
+    }
+
+    public static long getListSum(List<Integer> list){
+        
+        long sum = 0;
+
+        for(int i = 0; i < list.size(); i++){
+            sum += list.get(i);
+        }
+
+        return sum;
     }
 }
