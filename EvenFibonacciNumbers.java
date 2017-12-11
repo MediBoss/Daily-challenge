@@ -26,3 +26,14 @@ By considering the terms in the Fibonacci sequence whose values do not exceed fo
 import java.util.*;
 
 public class Problem2{
+  
+  public static void main(string[] args){
+
+        List<Integers> myList = new Arraylist<Integers>();// array to hold even numbers
+
+    }
+  
+  
+  
+  
+}
