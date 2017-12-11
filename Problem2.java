@@ -24,13 +24,19 @@ import java.lang.Math;
 public class Problem2{
     
     public static void main(String[] args){
-        static const int LIMIT = 4000000;
-        List<Integer>fibNumbers = fibSequence(limit);
-        List<Integer>evenFib = getEvenNumbers(fibNumbers);
-        System.out.println(getListSum(evenFib));
+      
+        static const int LIMIT = 4000000; // stores the limit condition
+      
+        List<Integer>fibNumbers = fibSequence(limit);//stores the first 4M fibonacci numbers
+      
+        List<Integer>evenFib = getEvenNumbers(fibNumbers);//stores the list of even fibonacci numbers
+      
+        System.out.println(getListSum(evenFib)); // uses the function getListSum to print the sum of the even fib numbers
 
     }
-
+  
+    //function to find the fibonacci numbers given the max/limit number
+    //Postcondition : The list of fibonacci numbers is returned
     public static List<Integer> fibSequence(int limit){
 
         List<Integer> fibValues = new ArrayList<Integer>();
@@ -53,6 +59,8 @@ public class Problem2{
         return fibValues;
     }
  
+    //function to get the even fibonacci numbers
+    //postcondition : The list of the even numbers in the fibonacci sequence is returned
     public static List<Integer> getEvenNumbers(List<Integer> list){
 
         List<Integer> evenFib = new ArrayList<Integer>();
@@ -65,7 +73,8 @@ public class Problem2{
 
         return evenFib;
     }
-
+  //function to compute the sum of the even fibonacci numbers
+  //postcondition : The sum is returned
     public static long getListSum(List<Integer> list){
         
         long sum = 0;
