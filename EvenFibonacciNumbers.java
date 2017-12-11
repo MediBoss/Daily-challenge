@@ -24,3 +24,5 @@ By considering the terms in the Fibonacci sequence whose values do not exceed fo
  * 
  * **/
 import java.util.*;
+
+public class Problem2{
