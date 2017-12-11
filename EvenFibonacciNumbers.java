@@ -33,7 +33,18 @@ public class Problem2{
 
     }
   
-  
+  public static List<Integer> getFibNumbers(int limit){
+
+        List <Integer> fibNumbers = new ArrayList<Integer>();
+        if(limit == 0 || limit == 1){//base case
+
+            return 1;
+        }else{
+            fibNumbers.add(getFibNumbers(limit - 1) - getFibNumbers(limit - 2));
+        };
+
+        return fibNumbers;
+    }
   
   
 }
