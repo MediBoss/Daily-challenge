@@ -46,5 +46,14 @@ public class Problem2{
         return fibNumbers;
     }
   
-  
+   public static List<Integer> getEvenNumbers(List<Integer> list, int limit){
+
+        List<Integer> evenFib = new ArrayList<Integer>();
+        for(int i = 0; i < limit; i++){
+
+            if(list.get(i) % 2 == 0){
+                evenFib.add(list.get(i));
+            }
+        }
+    }
 }
