@@ -1,6 +1,6 @@
-# Daily-challenge
+                  # Daily-challenge
 
-      GOALS      
+                         GOALS      
       
 1.Challenging myself 
 
@@ -13,3 +13,8 @@
 5. Push commits eberyday
 
 Disclamair : This Repository may contain solotions from ProjectEuler.net challenegs, please be advised.
+
+
+Problem 1 : The largest prime factor Challenge (Java)
+
+Problem 2 : Finds sum of even fib numbers from 0 to 4 Millions (Java)
