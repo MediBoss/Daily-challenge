@@ -1,4 +1,4 @@
-                  # Daily-challenge
+# Daily-challenge
 
                          GOALS      
       
@@ -14,6 +14,8 @@
 
 Disclamair : This Repository may contain solotions from ProjectEuler.net challenegs, please be advised.
 
+
+            CHALLENGE QUESTIONS
 
 Problem 1 : The largest prime factor Challenge (Java)
 
