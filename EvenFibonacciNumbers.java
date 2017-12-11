@@ -1,6 +1,6 @@
 /*
 
-              ***Problem 2***
+              ***Challenge 2***
               /**
  * Coded By : Medi W. Assumani
  * Language : Java
@@ -23,3 +23,4 @@ By considering the terms in the Fibonacci sequence whose values do not exceed fo
  * 
  * 
  * **/
+import java.util.*;
