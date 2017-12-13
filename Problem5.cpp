@@ -26,6 +26,8 @@ int main(){
   return 0;
 }
 
+//function to get the smallest divisible number
+//postcondition : The number is returned
 int getSmallestNumber(int max){
 
   int num = 1;
