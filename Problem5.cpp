@@ -18,6 +18,7 @@ What is the smallest positive number that is evenly divisible by all of the numb
 using namespace std;
 
 int getSmallestNumber();
+
 int main(){
 
 
@@ -30,7 +31,8 @@ int getSmallestNumber(int max){
   int num = 1;
 
   for(int i = 1; i < max; i++){
-    if(num % i == 0){
+    
+    if(num % i == 0){//cehcks if the number is evenly divisible
       
     }
   }
