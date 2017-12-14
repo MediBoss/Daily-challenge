@@ -41,5 +41,6 @@ double sumSquareDifference(){
   
   difference = (Math.pow(sumTwo,2.0) - sumOne);
   
-
+  
+  return difference;
 }
