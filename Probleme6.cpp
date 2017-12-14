@@ -1,8 +1,7 @@
 /**
 
   Coded By : Medi Assumani
-
-
+  
   Language : C++
 
 
@@ -28,8 +27,6 @@ int main(){
 }
 
 double sumSquareDifference(){
-  
-  //Get the sum of the squares  of the first hundred natural numbers
 
     double sumOne,sumTwo,difference;
   
