@@ -21,6 +21,8 @@ public class MultiplesOfFiveAndThree{
 /*
     *@param limit is the range or the highest number
     */
+    //function to get the sum of multiples of 3 and 5
+    //postcondition : the sum is returned
     public static int multiples(int limit){
             
     int sum = 0;
