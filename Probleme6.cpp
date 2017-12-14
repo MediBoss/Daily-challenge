@@ -22,7 +22,7 @@ double sumSquareDifference();
 int main(){
   
   
-  
+  cout<<"The sum square difference is : "<<sumSquareDifference()<<endl;
   
   
 }
