@@ -18,10 +18,16 @@
 
 using namespace std;
 
+double sumSquareDifference();
 int main(){
   
   
   
+  
+  
+}
+
+double sumSquareDifference(){
   
   
 }
