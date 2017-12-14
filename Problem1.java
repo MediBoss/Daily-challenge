@@ -24,3 +24,16 @@ public class MultiplesOfFiveAndThree{
     public static int multiples(int limit){
             
     int sum = 0;
+    for(int k = 1; k < limit; k++){
+
+        if(k % 3 == 0 || k % 5 == 0){
+
+          sum+= k;
+        }
+
+      }
+
+      return sum;
+    }
+}
+
