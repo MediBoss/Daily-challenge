@@ -39,5 +39,7 @@ double sumSquareDifference(){
         sumTwo += i;
      }
   
+  difference = (Math.pow(sumTwo,2.0) - sumOne);
+  
 
 }
