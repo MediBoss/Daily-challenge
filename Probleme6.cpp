@@ -33,7 +33,11 @@ double sumSquareDifference(){
 
     double sumOne,sumTwo,difference;
   
-  
+    for(int i = 0; i <= 100; i++){
+
+        sumOne += Math.pow(i,2.0);
+        sumTwo += i;
+     }
   
 
 }
