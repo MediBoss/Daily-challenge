@@ -1,5 +1,5 @@
 /*
-
+      FIND THE BUG AND COMPLETE TO GET CORRECT RESULT
               ***Challenge 2***
               /**
  * Coded By : Medi W. Assumani
