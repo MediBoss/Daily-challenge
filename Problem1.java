@@ -10,3 +10,12 @@ Language : Java
 
 **/
 
+public class MultiplesOfFiveAndThree{
+
+  public static void main(String[] args){
+
+    System.out.println("\n\nThe sum of all Multiples of Five and Three is : "+ multiples(1000)+"\n\n");
+
+
+  }
+
