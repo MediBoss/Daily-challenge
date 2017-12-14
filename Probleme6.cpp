@@ -29,5 +29,10 @@ int main(){
 
 double sumSquareDifference(){
   
-  
+  //Get the sum of the squares  of the first hundred natural numbers
+
+    double sumOne = 0;
+    double sumTwo = 0;
+    double difference = 0;
+
 }
