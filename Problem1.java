@@ -18,4 +18,7 @@ public class MultiplesOfFiveAndThree{
 
 
   }
-
+/*
+    *@param limit is the range or the highest number
+    */
+    public static int multiples(int limit){
