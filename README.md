@@ -10,7 +10,7 @@
 
 4. Solve a new challenge everyday
 
-5. Push commits eberyday
+5. Push commits everyday
 
 Disclamair : This Repository may contain solotions from ProjectEuler.net challenegs, please be advised.
 
