@@ -44,3 +44,28 @@ public static BigInteger fibSequence(){
         BigInteger fibSum = BigInteger.valueOf(0);
         BigInteger finalSum = BigInteger.valueOf(0);
         int count = 0;
+      
+      while(count < LIMIT){
+
+            fibSum = a.add(b);
+            a = b;
+            b = fibSum;
+              if(fibSum.remainder(decoy) == decoy_2){
+
+                fibValues.add(fibSum);
+
+                  for(int index = 0; index < fibValues.size();index++){
+
+                      finalSum = finalSum.add(fibValues.get(index));
+
+                  }
+              }
+            count++;
+        }
+
+        return finalSum;
+
+    }
+
+}
+
