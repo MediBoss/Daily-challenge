@@ -31,3 +31,5 @@ public class Problem2{
         System.out.println(fibSequence());
 
     }
+//function to find the sum of even fibonacci numbers given the max/limit number
+ //Postcondition : The sum of the first 40 million even integers
