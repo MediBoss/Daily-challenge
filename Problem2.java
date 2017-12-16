@@ -33,3 +33,14 @@ public class Problem2{
     }
 //function to find the sum of even fibonacci numbers given the max/limit number
  //Postcondition : The sum of the first 40 million even integers
+      
+public static BigInteger fibSequence(){
+
+        ArrayList<BigInteger> fibValues = new ArrayList<BigInteger>();
+        BigInteger decoy = BigInteger.valueOf(2);
+        BigInteger decoy_2 = BigInteger.valueOf(0);
+        BigInteger a = BigInteger.valueOf(0);
+        BigInteger b = BigInteger.valueOf(1);
+        BigInteger fibSum = BigInteger.valueOf(0);
+        BigInteger finalSum = BigInteger.valueOf(0);
+        int count = 0;
