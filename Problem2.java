@@ -50,7 +50,7 @@ public static BigInteger fibSequence(){
             fibSum = a.add(b);
             a = b;
             b = fibSum;
-              if(fibSum.remainder(decoy) == decoy_2){
+              if(fibSum.remainder(decoy) == decoy_2){//checks if the number is even
 
                 fibValues.add(fibSum);
 
