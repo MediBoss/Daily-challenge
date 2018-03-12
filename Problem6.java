@@ -24,6 +24,7 @@ None -> TypeError
 16 -> True
 */
 import java.io.IOException;
+import java.lang.Math;
 
 public class PowerOfTwo{
   public static void main(String[] args){
@@ -36,5 +37,16 @@ public class PowerOfTwo{
   */
   public static boolean isPowerOfTwo(int number){
 
+    if (number %2 != 0 || number < 0){
+      return False
+    }else{
+      for(int i = 1; i < number; i++){
+        if(Math.pow(i,2) == number){
+          return true
+        }
+      }
+    }
+    return fasle
   }
 }
+
