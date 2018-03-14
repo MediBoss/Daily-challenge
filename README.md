@@ -21,6 +21,7 @@
 Disclamair : This Repository may contain solotions from ProjectEuler.net challenegs, please be advised.
 
 </br>
+
 # Challenge Questions
 
 Problem 1 : The largest prime factor Challenge (Java)
@@ -37,6 +38,8 @@ Problem 6 : sum of the squares of the  first one hundred natural numbers and the
 </br>
 
 # Data Structures
+
 </br>
+
 # Algorithms
 
