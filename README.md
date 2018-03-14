@@ -1,5 +1,5 @@
-# Daily-challenges
-
+# Daily challenges with Java, C++, Swift, and Python
+</br>
 # Goals :
       
       
@@ -19,7 +19,7 @@
 
 Disclamair : This Repository may contain solotions from ProjectEuler.net challenegs, please be advised.
 
-
+</br>
 # Challenge Questions
 
 Problem 1 : The largest prime factor Challenge (Java)
@@ -33,8 +33,9 @@ Problem 4 :
 Problem 5 : the smallest positive number that is evenly divisible by all of the numbers from 1 to 20
 
 Problem 6 : sum of the squares of the  first one hundred natural numbers and the square of the sum
+</br>
 
 # Data Structures
-
+</br>
 # Algorithms
 
