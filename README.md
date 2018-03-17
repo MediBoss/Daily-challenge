@@ -6,7 +6,7 @@
       
 1. Challenging myself 
 
-2. Use my main programming languages (C++, JAVA, SWIFT, PYTHON) to solve the challnege
+2. Use my main programming languages (C++, JAVA, SWIFT, PYTHON) to solve the challenges
 
 3. Apply OOP concepts if applicable
 
