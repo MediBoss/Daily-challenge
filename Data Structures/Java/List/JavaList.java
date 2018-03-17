@@ -27,10 +27,10 @@ public class JavaList<E>{
     return this.size;
   }
 
-  // Function expend the size of the List by two
+  // Function expend the size of the List by a factor of Two
   public void maximizeListCapacity(){
     int newListSize = this.elements.length * 2;
-    this.elements = Arrays.copyOf(elements,newListSize);
+    this.elements = Arrays.copyOf(elements,newListSize); // creates a copy of a new array with new size
   }
   // Function to append an element in the List
   public void addElement(E e){
