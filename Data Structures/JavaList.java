@@ -1,7 +1,7 @@
 /*
   Coded By : Medi Assumani
   Language : Java
-  Topic : List (resizable)
+  Topic : List (resizable) that only supports the Int Data Type
 
   Purpose : Re-building Java's Arraylist with more functionalities and practicing algorithm skills
 */
@@ -39,13 +39,12 @@ public class JavaList<E>{
     @param : element :
     @param : position:
   */
-  public void set(int element, int position){
+  public void setElementInPosition(int element, int position){
 
   }
-  // function to get an elemnt from the list
-  public int get(){
+  public int getElementInPosition(){
 
-    return 0;
+     return 0;
   }
     /*
       Function to search if an elemnt is in the list
