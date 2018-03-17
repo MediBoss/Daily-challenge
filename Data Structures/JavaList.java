@@ -22,18 +22,16 @@ public class JavaList<E>{
     this.size = 0;
   }
 
-  /*
-    Function to return the size of the List
-  */
+  //Function to return the size of the List
   public int getLength(){
-
+    return 0;
   }
   // Function to append an element in the List
-  public void add(){
+  public void addElement(){
 
   }
   // function to remove an element in the list
-  public void delete(int num){
+  public void deleteElement(int elemnt){
 
   }
   /*
@@ -55,7 +53,7 @@ public class JavaList<E>{
     */
   public bool search(int elemToBeSearched){
 
-    return 0;
+    return true;
   }
   // function to sort the List
   public void sort(){
