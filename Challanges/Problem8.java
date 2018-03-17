@@ -8,10 +8,9 @@ Problem: Write a function that rotates an array of size n by d elements
 public class Problem8{
   public static void main(String[]args){
 
-    int [] firstList = {1,2,3,4,5,6};
+
 
   }
-
   /*
   Function to return an array of elements shifted by d. From d to array.lenght
 
@@ -27,8 +26,6 @@ public class Problem8{
       }
       return shiftedArray;
   }
-
-
   /*
   Function to return an array of the unshifted elementsin the array
 
