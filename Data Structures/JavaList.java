@@ -5,8 +5,9 @@
 
   Purpose : Re-building Java's Arraylist with more functionalities and practicing algorithm skills
 */
+import java.util.Arrays;
 
-public class JavaList{
+public class JavaList<E>{
   // the default size of the list
   private int size = 0;
 
