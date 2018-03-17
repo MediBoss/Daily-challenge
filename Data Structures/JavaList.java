@@ -8,6 +8,7 @@
 import java.util.Arrays;
 import java.lang.Class;
 
+// implementing the List Data Structure where E is the Data Type
 public class JavaList<E>{
 
   private int size = 0;
@@ -21,18 +22,21 @@ public class JavaList<E>{
     elements = new Object[DEFAULT_CAPACITY]
   }
 
-  //constructor for list with no initial size
-  public JavaList(){
-    this.size = 0;
-  }
-
   //Function to return the size of the List
   public int getLength(){
-    return 0;
+    return this.size;
+  }
+
+  // Function expend the size of the List by two
+  public void maximizeListCapacity(){
+    int newListSize = this.elements.length * 2;
+    this.elements = Arrays.copyOf(elements,newListSize);
   }
   // Function to append an element in the List
-  public void addElement(){
+  public void addElement(E e){
+    if(size == elements.length){
 
+    }
   }
   // function to remove an element in the list
   public void deleteElement(int elemnt){
@@ -62,4 +66,5 @@ public class JavaList<E>{
   public void sort(){
 
   }
+
 }
