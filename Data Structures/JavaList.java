@@ -6,15 +6,19 @@
   Purpose : Re-building Java's Arraylist with more functionalities and practicing algorithm skills
 */
 import java.util.Arrays;
+import java.lang.Class;
 
 public class JavaList<E>{
-  // the default size of the list
+
   private int size = 0;
+  private static final int DEFAULT_CAPACITY = 10;
+  private Object elements[]; // an array of the Object Class
 
   //constructor for List Objec with initial size
   //@ param size : the length of the List
   public JavaList(int size){
-    this.size = size;
+      // this initializes the created List with a starting length of DEFAULT_CAPACITY
+    elements = new Object[DEFAULT_CAPACITY]
   }
 
   //constructor for list with no initial size
