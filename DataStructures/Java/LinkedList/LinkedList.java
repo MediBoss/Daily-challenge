@@ -7,32 +7,49 @@
 */
 import java.util.*;
 
-public class LinkedList{//outer class
-  /*
-    * The Node class acts as an helper inner class for the Linked List Class
-    * @param AnyType : The type parameter. e,g : Interger, String, Double
-  */
-  private static class Node<AnyType>{
+/*
+  * The Node class acts as an helper class for the Linked List Class
+  * @param AnyType : The generuc parameter type . e,g : Interger, String, Double
+*/
+private static Node<AnyType>{
 
-    private AnyType data;
-    private Node<AnyType> next;
+  private AnyType data;
+  private Node<AnyType> next;
 
-    public Node(AnyType data, Node<AnyType> next){
-      this.data = data;
-      this.next = next;
-    }
-  } //  end of the Node Class
+  public Node(AnyType data, Node<AnyType> next){
+    this.data = data;
+    this.next = next;
+  }
+} //  end of the Node Class
 
-    // the netry point of the List
+/*
+  * The LinkedList class is the outer class of the LinkedList
+  * The <AnyType> Generic Type means that we can have a list of String, Integers, Doubles, etc..
+*/
+public class LinkedList<AnyType>{//outer class
+
+      // LINKEDLIST CLASS INSTANCE VARIABLES
   private Node<AnyType> head;
 
-// Contructs an empty Linked list
+        // LINKEDLIST CLASS CONSTRUCTOR
   public LinkedList(){
-    this.head = null;
+    head = null;
   }
-    // checks if the list is empty and returns a true or false value
+
+        // HELPFUL METHODS
+      // returns a true or false value on wheater or not the list is empty
   public boolean isEmpty(){
-
+    return (head == null);
+  }
+        //inserts an element in the begining of the list
+  public void addFirst(AnyType data){
+    if (this.isEmpty()){
+      this.head = new Node<AnyType>(data,head)
+    }
   }
 
+    // appends an element in the end of the linked List
+  public void addLast(AnyType data){
+
+  }
 }
