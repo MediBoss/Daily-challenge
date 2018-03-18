@@ -21,6 +21,18 @@ public class LinkedList{//outer class
       this.data = data;
       this.next = next;
     }
+  } //  end of the Node Class
+
+    // the netry point of the List
+  private Node<AnyType> head;
+
+// Contructs an empty Linked list
+  public LinkedList(){
+    this.head = null;
+  }
+    // checks if the list is empty and returns a true or false value
+  public boolean isEmpty(){
+
   }
 
 }
