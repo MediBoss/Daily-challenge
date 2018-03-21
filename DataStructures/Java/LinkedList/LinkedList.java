@@ -6,50 +6,62 @@
   Purpose : Implementing The Linked List Data Structure from scratch
 */
 import java.util.*;
-
 /*
   * The Node class acts as an helper class for the Linked List Class
   * @param AnyType : The generuc parameter type . e,g : Interger, String, Double
 */
-private static Node<AnyType>{
+class LinkedList<AnyType>{
 
-  private AnyType data;
-  private Node<AnyType> next;
+  private static class Node<AnyType>{
 
-  public Node(AnyType data, Node<AnyType> next){
-    this.data = data;
-    this.next = next;
-  }
-} //  end of the Node Class
+      private AnyType data;
+      private Node<AnyType> next;
 
-/*
-  * The LinkedList class is the outer class of the LinkedList
-  * The <AnyType> Generic Type means that we can have a list of String, Integers, Doubles, etc..
-*/
-public class LinkedList<AnyType>{//outer class
+      public Node(AnyType data){
+          this.data = data;
+          this.next = null;
+        }
 
-      // LINKEDLIST CLASS INSTANCE VARIABLES
+  } //  end of the Node Class
+
   private Node<AnyType> head;
 
-        // LINKEDLIST CLASS CONSTRUCTOR
   public LinkedList(){
-    head = null;
-  }
+      head = null;
+    }
 
-        // HELPFUL METHODS
-      // returns a true or false value on wheater or not the list is empty
   public boolean isEmpty(){
-    return (head == null);
-  }
-        //inserts an element in the begining of the list
-  public void addFirst(AnyType data){
-    if (this.isEmpty()){
-      this.head = new Node<AnyType>(data,head)
+
+      return this.head == null;
+    }
+/*
+  public int length(){
+    if(this.isEmpty){
+      return 0;
+    }else{
+      for(int index = 0; index < )
     }
   }
+  */
 
-    // appends an element in the end of the linked List
-  public void addLast(AnyType data){
+    //inserts a new elemnt in the tail of the list
+   public void append(AnyType data){
+     if(this.isEmpty()){
+       this.head.data = data;
+     }
 
-  }
+     while(this.head.next != null){
+       
+     }
+   }
+
+
+  // inserts new element at the head of the list
+   public void prepend(AnyType data){
+
+    Node <AnyType> new_node = new Node<AnyType> (data);
+    new_node.next = this.head;
+    head = new_node;
+   }
+
 }
