@@ -5,8 +5,7 @@ public class LinkedListTester{
 
       LinkedList<String> students = new LinkedList<String>();
 
-
-
       System.out.println(students.isEmpty());
+      students.print();
   }
 }

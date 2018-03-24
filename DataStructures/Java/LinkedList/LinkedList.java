@@ -6,6 +6,7 @@
   Purpose : Implementing The Linked List Data Structure from scratch
 */
 import java.util.*;
+import java.io.IOException;
 /*
   * The Node class acts as an helper class for the Linked List Class
   * @param AnyType : The generuc parameter type . e,g : Interger, String, Double
@@ -54,19 +55,40 @@ class LinkedList<AnyType>{
      }
      Node<AnyType> currentNode = this.head;
      while (currentNode.next != null){
-       currentNode =currentNode.next;
+       currentNode = currentNode.next;
      }
      currentNode.next = new Node<AnyType>(data);
 
    }
-
-
   // inserts new element at the head of the list
    public void prepend(AnyType data){
 
     Node <AnyType> new_node = new Node<AnyType> (data);
     new_node.next = this.head;
     head = new_node;
+   }
+
+   /*
+   This funcion parses thro
+
+   */
+   public void print(){
+
+     if(this.isEmpty()){
+       System.out.println("The list is Empty.");
+     }
+
+     try{
+
+       Node<AnyType> temp = this.head;
+       while(temp.next != null){
+         temp = temp.next;
+         System.out.println(temp.data);
+       }
+     } catch (NullPointerException e){
+       System.out.println("Error Found : Null value");
+     }
+
    }
 
 }
