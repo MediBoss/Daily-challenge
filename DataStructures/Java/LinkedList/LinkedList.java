@@ -38,19 +38,10 @@ class LinkedList<AnyType>{
   public boolean isEmpty(){
       return this.head == null;
     }
-/*
-  public int length(){
-    if(this.isEmpty){
-      return 0;
-    }else{
-      for(int index = 0; index < )
-    }
-  }
-  */
 
-    /*inserts a new elemnt in the tail of the list
-      Time Complexity :
-    */
+  /* Function to insert a new elemnt in the tail of the list
+    Time Complexity :
+  */
    public void append(AnyType data){
      if (this.isEmpty()) {
        this.prepend(data);
@@ -64,7 +55,7 @@ class LinkedList<AnyType>{
      currentNode.next = new Node<AnyType>(data);
 
    }
-  /* Thisf function inserts new element at the head of the list
+  /* This function inserts new element at the head of the list
     Time Complexity :
   */
    public void prepend(AnyType data){
@@ -120,6 +111,49 @@ class LinkedList<AnyType>{
        System.out.println("Error : Null elemnt found");
      }
      return counter;
+   }
+
+   /*
+   Function to delete an elemnt from the List
+   Time Complexity :
+   @param data : The element to be removed
+   */
+
+   public void delete(AnyType data){
+     // check if list is Empty
+     if(this.isEmpty()){
+       // if empty, give an appropriate message
+       System.out.println("The List is Empty.");
+     }
+        // create temp node and make it equal to the head node
+     Node<AnyType> temp = this.head;
+     //while the next node is not null
+     while(temp.next != null){
+       // check if the data of the temp node is equal to data param
+       if(temp.data == data){
+         // if it is
+            // set the temp node's next pointer as the head
+            temp.next = this.head;
+           // nullify the temp node
+           temp = null;
+       }else{
+         // if it is not
+           //set temp's next pointer to next node
+           temp = temp.next;
+           //Repeat this until the node's data is found
+       }
+     }
+   }
+
+   /*
+    Function to replace a data with a different one
+    Time Complexity :
+    @param  oldData : The data that has to be replaed
+    @param newData : The data that has to replace the old data
+   */
+
+   public void replace(AnyType oldData, AnyType newData){
+
    }
 
 }
