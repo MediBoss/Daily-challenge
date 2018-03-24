@@ -7,5 +7,6 @@ public class LinkedListTester{
 
       System.out.println(students.isEmpty());
       students.print();
+      System.out.println(students.length());
   }
 }

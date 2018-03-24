@@ -17,7 +17,6 @@ class LinkedList<AnyType>{
 
       private AnyType data;
       private Node<AnyType> next;
-      private static int counter = 0;
 
       public Node(AnyType data){
           this.data = data;
@@ -34,7 +33,7 @@ class LinkedList<AnyType>{
 
   /*
   This function checks wheater or not the list is empty by returning a true or false value
-  Time Complexity : 
+  Time Complexity :
   */
   public boolean isEmpty(){
       return this.head == null;
@@ -97,6 +96,30 @@ class LinkedList<AnyType>{
        System.out.println("Error Found : Null value");
      }
 
+   }
+   /*
+   This function parses through the entire list to counts the length
+   Time Complexity :
+   */
+   public int length(){
+
+     int counter = 0;
+     if(this.isEmpty()){
+       return 0;
+     }
+     try{
+
+       Node <AnyType> temp = this.head;
+       counter = 1;//because the head already counts as one elemnt
+       while(temp.next != null){
+         temp = temp.next;
+         counter++;
+       }
+
+     } catch(NullPointerException e){
+       System.out.println("Error : Null elemnt found");
+     }
+     return counter;
    }
 
 }
