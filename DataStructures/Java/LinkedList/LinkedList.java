@@ -16,6 +16,7 @@ class LinkedList<AnyType>{
 
       private AnyType data;
       private Node<AnyType> next;
+      private static int counter = 0;
 
       public Node(AnyType data){
           this.data = data;
@@ -46,13 +47,17 @@ class LinkedList<AnyType>{
 
     //inserts a new elemnt in the tail of the list
    public void append(AnyType data){
-     if(this.isEmpty()){
-       this.head.data = data;
-     }
+     if (this.isEmpty()) {
+       this.prepend(data);
+       return;
 
-     while(this.head.next != null){
-       
      }
+     Node<AnyType> currentNode = this.head;
+     while (currentNode.next != null){
+       currentNode =currentNode.next;
+     }
+     currentNode.next = new Node<AnyType>(data);
+
    }
 
 
