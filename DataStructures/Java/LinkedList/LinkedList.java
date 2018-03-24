@@ -32,8 +32,11 @@ class LinkedList<AnyType>{
       head = null;
     }
 
+  /*
+  This function checks wheater or not the list is empty by returning a true or false value
+  Time Complexity : 
+  */
   public boolean isEmpty(){
-
       return this.head == null;
     }
 /*
@@ -46,7 +49,9 @@ class LinkedList<AnyType>{
   }
   */
 
-    //inserts a new elemnt in the tail of the list
+    /*inserts a new elemnt in the tail of the list
+      Time Complexity :
+    */
    public void append(AnyType data){
      if (this.isEmpty()) {
        this.prepend(data);
@@ -60,7 +65,9 @@ class LinkedList<AnyType>{
      currentNode.next = new Node<AnyType>(data);
 
    }
-  // inserts new element at the head of the list
+  /* Thisf function inserts new element at the head of the list
+    Time Complexity :
+  */
    public void prepend(AnyType data){
 
     Node <AnyType> new_node = new Node<AnyType> (data);
@@ -69,7 +76,8 @@ class LinkedList<AnyType>{
    }
 
    /*
-   This funcion parses thro
+   This funcion parses through each node and prints the element
+   Time Complexity :
 
    */
    public void print(){
