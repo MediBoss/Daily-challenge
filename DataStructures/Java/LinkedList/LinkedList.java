@@ -153,7 +153,17 @@ class LinkedList<AnyType>{
    */
 
    public void replace(AnyType oldData, AnyType newData){
-
+     if(this.isEmpty()){
+       System.out.println("The List is Empty");
+     }
+     Node<AnyType> temp = this.head;
+     while(temp.next != null){
+       if(temp.data == oldData){
+         temp.data = newData;
+       }else{
+         temp = temp.next;
+       }
+     }
    }
 
 }
