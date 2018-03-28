@@ -1,6 +1,25 @@
 
-# Challenge Questions
+# Daily Programming Challenges
+### Programmer : Medi W. Assumani
+### Languages : C++, Swift, Java, Python
+ </br>     
+1. Challenging myself 
 
+2. Use my main programming languages (C++, JAVA, SWIFT, PYTHON) to solve the challenges
+
+3. Apply OOP concepts if applicable
+
+4. Solve a new challenge everyday
+
+5. Push and commit everyday
+
+6. Learn and implement Data Structures
+
+7. Learn and implement many algorithms
+
+Disclamair : This Repository may contain solotions from ProjectEuler.net challenegs, please be advised.
+
+</br>
 Problem 1 : The largest prime factor Challenge (Java)
 
 Problem 2 : Finds sum of even fib numbers from 0 to 4 Millions (Java)
