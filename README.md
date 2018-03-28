@@ -1,5 +1,5 @@
 
-<img src = https://developer.apple.com/swift/images/swift-og.png>
+<img src = "https://developer.apple.com/swift/images/swift-og.png">
 
 # Daily Programming Challenges
 #### Programmer : Medi W. Assumani
