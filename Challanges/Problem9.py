@@ -1,4 +1,5 @@
 #Write a program to compute and tell if two lines have the same slope
+#Simple intro python program
 
     #Line one
 x1  = 1
