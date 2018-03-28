@@ -1,5 +1,5 @@
 
-<img src = "https://developer.apple.com/swift/images/swift-og.png" width = 100 height = 100><img src = "<img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/2000px-Python-logo-notext.svg.png" width = 100 height = 100>
+<img src = "https://developer.apple.com/swift/images/swift-og.png" width = 100 height = 100><img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/2000px-Python-logo-notext.svg.png" width = 100 height = 100> <img src = "https://vignette.wikia.nocookie.net/logopedia/images/6/6a/Java-logo.jpg/revision/latest/scale-to-width-down/640?cb=20150321072347" width = 100 height = 100><img src = "https://png.icons8.com/color/1600/c-plus-plus-logo.png" width = 100 height = 100>
 
 # Daily Programming Challenges
 #### Programmer : Medi W. Assumani
