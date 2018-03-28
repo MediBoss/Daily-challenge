@@ -1,31 +1,16 @@
-# Daily challenges with Java, C++, Swift, and Python
-</br>
 
-# Goals :
-      
-      
-1. Challenging myself 
+# Challenge Questions
 
-2. Use my main programming languages (C++, JAVA, SWIFT, PYTHON) to solve the challenges
+Problem 1 : The largest prime factor Challenge (Java)
 
-3. Apply OOP concepts if applicable
+Problem 2 : Finds sum of even fib numbers from 0 to 4 Millions (Java)
 
-4. Solve a new challenge everyday
+Problem 3 : largest prime factor
 
-5. Push and commit everyday
+Problem 4 :
 
-6. Learn and implement Data Structures
+Problem 5 : the smallest positive number that is evenly divisible by all of the numbers from 1 to 20
 
-7. Learn and implement many algorithms
-
-Disclamair : This Repository may contain solotions from ProjectEuler.net challenegs, please be advised.
-
-</br>
-
-# Data Structures
-
-</br>
-
-# Algorithms
+Problem 6 : sum of the squares of the  first one hundred natural numbers and the square of the sum
 
 
