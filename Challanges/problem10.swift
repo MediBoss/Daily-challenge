@@ -10,8 +10,6 @@
 
 import Foundation
 
-
-
 //Function to convert inches to feet
 //Postcondition : an integer for feet is returned
 func inchesToFeet(for inches: Int) -> Int{
@@ -19,21 +17,18 @@ func inchesToFeet(for inches: Int) -> Int{
     return inches / 12
 }
 
-
 //Function to convert minutes to hours
 //Postcondition : an integer for hours is returned
 func minutesToHours(for minutes: Int) -> Int{
     
     return minutes / 60
 }
-
 //Function to convert seconds to minutes
 //Postcondition : an integer for minutes is returned
 func secondsToMinutes(for seconds: Int) -> Int{
     
     return seconds / 60
 }
-
 //Function to compute conversion using control statements
 func userChoice(for input: Int){
     
@@ -50,9 +45,7 @@ func userChoice(for input: Int){
         print("\(seconds) seconds equals to \(secondsToMinutes(for: seconds)) Minutes")
     }
 }
-
         //MAIN
-
 
 let inches = 248
 let minutes = 3476
@@ -61,6 +54,3 @@ let seconds = 4390
 userChoice(for: 1)
 userChoice(for: 2)
 userChoice(for: 3)
-
-
-
