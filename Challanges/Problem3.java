@@ -40,9 +40,7 @@ public class LargestPrimeFactor{
 
 
     List<Integer> primeFactors = getFactors(userInput);
-    
-    
-    
+        
     /**
      * Stores only prime numbeers among the list of factors of the Parameter
      * */
@@ -65,13 +63,11 @@ public class LargestPrimeFactor{
                    primeNumbers.add(primeFactors.get(i)); 
             }        
     }
-    
-    
+      
     //itterates through the list of prime numbers and gets the largest
     
     System.out.println("The Highest prime Factor of "+userInput+" is "+ maxNumber(primeNumbers)+"\n");
     
-
   }
        // This function finds the highest Element on a list
   public static int maxNumber(List<Integer> list){
@@ -81,8 +77,7 @@ public class LargestPrimeFactor{
           for(int i = 0; i < list.size(); i++){
             if(list.get(i) > max){
                 
-                max = list.get(i);   
-                
+                max = list.get(i);             
             }
        }   
         
@@ -103,11 +98,5 @@ public class LargestPrimeFactor{
         }  
         
      return factors;   
-  }
-  
-  
-    
-      
+  }      
 }
-
-
