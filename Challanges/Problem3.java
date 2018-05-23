@@ -56,14 +56,12 @@ public class LargestPrimeFactor{
         
         //stores the factors of the ith element
         List<Integer> currFactors = getFactors(primeFactors.get(i));
-
                    //checks for the prime number
                 if(currFactors.size() <= 2){
                     //adds the prime number to the list
                    primeNumbers.add(primeFactors.get(i)); 
             }        
     }
-      
     //itterates through the list of prime numbers and gets the largest
     
     System.out.println("The Highest prime Factor of "+userInput+" is "+ maxNumber(primeNumbers)+"\n");
@@ -75,14 +73,11 @@ public class LargestPrimeFactor{
         int max = 0;          
           
           for(int i = 0; i < list.size(); i++){
-            if(list.get(i) > max){
-                
+            if(list.get(i) > max){   
                 max = list.get(i);             
             }
-       }   
-        
-        return max;
-          
+       }  
+        return max;  
       }
 
   public static List<Integer> getFactors(int number){
@@ -93,10 +88,8 @@ public class LargestPrimeFactor{
             if(number % k == 0){
                 //adds it in the list if it is a factor
                 factors.add(k);   
-                
             }
         }  
-        
      return factors;   
   }      
 }
