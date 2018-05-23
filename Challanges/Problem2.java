@@ -51,21 +51,13 @@ public static BigInteger fibSequence(){
             a = b;
             b = fibSum;
               if(fibSum.remainder(decoy) == decoy_2){//checks if the number is even
-
                 fibValues.add(fibSum);
-
                   for(int index = 0; index < fibValues.size();index++){
-
                       finalSum = finalSum.add(fibValues.get(index));
-
                   }
               }
             count++;
         }
-
         return finalSum;
-
     }
-
 }
-
