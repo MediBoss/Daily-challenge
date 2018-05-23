@@ -23,12 +23,12 @@
 * Problem 1 : The largest prime factor Challenge (Java)
 * Problem 2 : Finds sum of even fib numbers from 0 to 4 Millions (Java)
 * Problem 3 : largest prime factor
-* Problem 4 :
 * Problem 5 : the smallest positive number that is evenly divisible by all of the numbers from 1 to 20
 * Problem 6 : sum of the squares of the  first one hundred natural numbers and the square of the sum
-* Problem 7 :
-* Problem 8 :
-* Problem 9 :
-* Problem 10 : 
+* Problem 7 : Determine if a number is a power of two.
+* Problem 8 : Write a function that rotates an array of size n by d elements
+* Problem 9 : Write a program to compute and tell if two lines have the same slope (basic python)
+* Problem 10 : Converter 
+* Problem 11 : Palindrom
 
 
