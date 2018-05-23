@@ -16,14 +16,10 @@ What is the smallest positive number that is evenly divisible by all of the numb
 //under construction
 
 #include <iostream>
-
 using namespace std;
-
 int getSmallestNumber();
 
 int main(){
-
-
 
   return 0;
 }
